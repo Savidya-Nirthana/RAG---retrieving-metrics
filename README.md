@@ -16,20 +16,15 @@ By comparing what the system retrieves against the known correct answers, we can
   <li>Recall – Of all the relevant documents in the dataset, what fraction did the system successfully retrieve? (Measures completeness of retrieval.)</li>
 </ul>
 
-Retrieval metrics are **essential** in Retrieval-Augmented Generation (RAG) systems because they measure how well the retrieval component is performing.  
-Using a **labeled dataset** (queries with known correct answers) allows us to compare retrieved results with the ground truth and calculate performance.
 
 #### Precision
-Measures **how many of the retrieved documents are actually relevant**.
-\[
-\text{Precision} = \frac{\text{Number of Relevant Documents Retrieved}}{\text{Total Number of Documents Retrieved}}
-\]
+Measures **how many of the retrieved documents are actually relevant**.  
+<b>Precision</b> = (Relevant Retrieved) ÷ (Total Retrieved)
 
 #### Recall
-Measures **how many of the relevant documents were successfully retrieved**.
-\[
-\text{Recall} = \frac{\text{Number of Relevant Documents Retrieved}}{\text{Total Number of Relevant Documents in Dataset}}
-\]
+Measures **how many of the relevant documents were successfully retrieved**.  
+<b>Recall</b> = (Relevant Retrieved) ÷ (Total Relevant)
+
 
 
 
